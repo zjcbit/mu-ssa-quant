@@ -1,7 +1,5 @@
 site_name: MU SSA Quant
 site_url: https://mu-ssa.goodidea-ai.com/
-repo_url: https://github.com/zjcbit/mu-ssa-quant
-repo_name: zjcbit/mu-ssa-quant
 
 nav:
   - Home: index.md
