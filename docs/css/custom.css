@@ -1,0 +1,32 @@
+.perf-big {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #26a69a;
+}
+[data-md-color-scheme="slate"] .perf-big {
+  color: #4db6ac;
+}
+.perf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+@media (max-width: 768px) {
+  .perf-grid { grid-template-columns: repeat(2, 1fr); }
+}
+.perf-card {
+  text-align: center;
+  padding: 20px 12px;
+  border-radius: 8px;
+  background: rgba(128,128,128,0.06);
+  border: 1px solid rgba(128,128,128,0.12);
+}
+.perf-card .perf-big {
+  display: block;
+  margin-bottom: 4px;
+}
+.perf-card .perf-label {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
